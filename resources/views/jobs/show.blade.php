@@ -1,5 +1,4 @@
-<x-layout>
-    <x-slot:heading>
+<x-layout> <x-slot:heading>
         Job
     </x-slot:heading>
 
