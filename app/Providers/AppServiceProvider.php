@@ -22,7 +22,8 @@ class AppServiceProvider extends ServiceProvider
     {
         Model::preventLazyLoading();
         // To specify error message on mass assignment => Model::preventSilentlyDiscardingAttributes($this->app->isLocal());
-        // To disable mass assignment protection globally in the app (instead of using fillable or guarded) => Model::unguard();
+        // To disable mass assignment protection globally in the app (instead of using fillable or guarded)
+        Model::unguard();
 
 
         // Paginator::useBootstrapFive(); If you want to use something else for pagination (than tailwind by default)
